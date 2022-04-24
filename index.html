@@ -1,13 +1,101 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
   <head>
-    <title>Projeto DIO - Spread Bootcamp</title>
     <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
     <meta name="keywords" content="HTML, Bootcamp, Spread Bootcamp" />
     <meta description="Projeto DIO - Spread Bootcamp" />
     <meta name="author" content="Murilo Amaral" />
+    <link rel="stylesheet" type="text/css" href="/src/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/src/css/style.css" />
+
+    <title>Projeto DIO - Spread Bootcamp</title>
   </head>
+
   <body>
-    <h1>Olá mundo</h1>
+    <!-- conteiner principal-->
+    <div class="instagram-wrap">
+      <!-- conteiner foto phone-->
+      <div class="instagram-phone">
+        <img
+          src="/src/img/phone-instagram-screen.png"
+          alt="Imagem de celular com a tela do instragram aberta"
+        />
+      </div>
+
+      <div class="instagram-continue">
+        <!-- conteiner login area-->
+        <div class="instagram-login">
+          <div class="group">
+            <img
+              class="instagram-logo"
+              src="/src/img/logo-instagram.png"
+              alt="Logo instagram"
+            />
+
+            <form class="form">
+              <input
+                type="text"
+                name="instagram-login"
+                id="instagram-login"
+                placeholder="Telefone, nome do usuario ou email"
+              />
+              <input type="password" name="password" placeholder="Senha" />
+              <button type="submit" name="join">Entrar</button>
+            </form>
+            <div class="hr-flex">
+              <div class="hr"></div>
+              <div class="oudiv"><span> OU </span></div>
+              <div class="hr"></div>
+            </div>
+            <div class="facebook-login">
+              <img src="/src/img/facebook.png" />
+              <p>Entrar com o Facebook</p>
+            </div>
+            <div class="forget-password">
+              <a href="#">Esqueceu sua senha?</a>
+            </div>
+          </div>
+
+          <div class="group">
+            <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+          </div>
+
+          <div class="get-app">
+            <p>Obtenha o Aplicativo</p>
+            <div class="store-button">
+              <a href="#">
+                <img src="/src/img/app-store-button.png" />
+              </a>
+              <a href="#">
+                <img src="/src/img/google-play-button.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <a href="">Meta</a>
+      <a href="">Sobre</a>
+      <a href="">Blog</a>
+      <a href="">Carreiras</a>
+      <a href="">Ajuda</a>
+      <a href="">API</a>
+      <a href="">Privacidade</a>
+      <a href="">Termos</a>
+      <a href="">Principais Contas</a>
+      <a href="">Hashtag</a>
+      <a href="">Localização</a>
+      <a href="">Instagram Lite</a>
+      <a href="">Dança</a>
+      <a href="">Comida e Bebida</a>
+      <a href="">Casa e Jardim</a>
+      <a href="">Música</a>
+      <a href="">Artes Visuais</a>
+    </footer> 
   </body>
 </html>
